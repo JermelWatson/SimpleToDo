@@ -32,7 +32,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Had to enable Virtual Technology in BIOS
+Had issues with starting up the AVD after some research I found that I had to enable Virtual Technology in BIOS
+Had issues with deleting an item. The app kept force closing on every long click. Found that there was a variable naming issue
+Had issues with switching to the edit screen and updating an item. After furthur investigation found that i was using the TextView instead of the PlainText inside the layout.
 
 ## License
 
